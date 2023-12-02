@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zerodha</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav>
+        <div class="navigation-container">
+            <div class="logo-container">
+                <img src="logo.svg" alt="Zeerodha Logo" />
+            </div>
+            <div class="menu-container">
+                <ul>
+                    <li><a href="https://signup.zerodha.com/" target="_blank">SignUp</a></li>
+                    <li><a href="https://zerodha.com/about/" target="_blank">About</a></li>
+                    <li><a href="https://zerodha.com/products/" target="_blank">Products</a></li>
+                    <li><a href="https://zerodha.com/pricing/" target="_blank">Pricing</a></li>
+                    <li><a href="https://support.zerodha.com/" target="_blank">Support</a></li>
+                    <li class="menu-icon">
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Landing Section -->
+        <div class="landing-section">
+            <img src="landing.png" alt="Landing Page" />
+        </div>
+
+        <!-- Tagline Section -->
+        <div class="tagline-section">
+            <div class="tagline">Invest in everything</div>
+        </div>
+
+        <!-- Subline Section -->
+        <div class="subline-section">
+            <div class="subline">
+                Online platform to invest in stocks, derivatives, mutual funds, and more
+            </div>
+        </div>
+
+        <!-- Signup Button -->
+        <div class="signup-btn">
+            Sign up now
+        </div>
+
+        <!-- Portfolio Calculator Section -->
+        <div class="portfolio-calculator">
+            <h2>Portfolio Calculator</h2>
+            <div class="result-group">
+                <div class="result-display" id="result"></div>
+            </div>
+            <div class="input-group">
+                <input type="number" id="capital" placeholder="Capital">
+            </div>
+            <div class="input-group">
+                <input type="number" id="years" placeholder="Years">
+            </div>
+            <div class="input-group">
+                <input type="number" id="interest" placeholder="Interest">
+            </div>
+            <button class="calculate-btn" onclick="calculate()">Calculate</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
